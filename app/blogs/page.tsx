@@ -33,7 +33,7 @@ export default function BlogPage() {
           href={`/blogs/${blog.id}`}
           className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition"
           >
-            <h2 className="font-bold text-lg">
+            <h2 className="font-bold text-gray-400">
               {blog.title}
             </h2>
             <p className="text-gray-600 text-sm mt-2">
